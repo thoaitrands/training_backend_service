@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'ubuntu-16.04' # Hosted Ubuntu 1604
+  vmImage: 'ubuntu-latest' # Hosted Ubuntu 1604
 
 steps:
 - task: Maven@3
